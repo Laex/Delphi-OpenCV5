@@ -1,0 +1,39 @@
+﻿package OpenCV5Fmx;
+
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$IMAGEBASE $402000}
+{$DESCRIPTION 'OpenCV 5.0 — FMX TBitmap <-> TCVMat bridge'}
+{$ENDIF IMPLICITBUILDING}
+{$ALIGN 8}
+{$MINENUMSIZE 1}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  fmx,
+  OpenCV5;
+
+contains
+  OpenCV5.Fmx in '..\source\OpenCV5.Fmx.pas',
+  OpenCV5.Fmx.Components in '..\source\OpenCV5.Fmx.Components.pas',
+  OpenCV5.Fmx.Register in '..\source\OpenCV5.Fmx.Register.pas';
+
+end.

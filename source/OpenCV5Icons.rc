@@ -1,0 +1,5 @@
+TCVCAMERA BITMAP "icons\\TcvCamera.bmp"
+TCVVIDEOFILE BITMAP "icons\\TcvVideoFile.bmp"
+TCVFACEDETECTOR BITMAP "icons\\TcvFaceDetector.bmp"
+TCVFACERECOGNIZER BITMAP "icons\\TcvFaceRecognizer.bmp"
+TCVPIPELINE BITMAP "icons\\TcvPipeline.bmp"

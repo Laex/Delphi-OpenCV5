@@ -1,0 +1,65 @@
+package OpenCV5;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$DEFINE PACKAGE}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl;
+
+contains
+  OpenCV5.Types in '..\source\OpenCV5.Types.pas',
+  OpenCV5.Core in '..\source\OpenCV5.Core.pas',
+  OpenCV5.Arith in '..\source\OpenCV5.Arith.pas',
+  OpenCV5.Imgproc in '..\source\OpenCV5.Imgproc.pas',
+  OpenCV5.Imgcodecs in '..\source\OpenCV5.Imgcodecs.pas',
+  OpenCV5.Highgui in '..\source\OpenCV5.Highgui.pas',
+  OpenCV5.Videoio in '..\source\OpenCV5.Videoio.pas',
+  OpenCV5.Video in '..\source\OpenCV5.Video.pas',
+  OpenCV5.Objdetect in '..\source\OpenCV5.Objdetect.pas',
+  OpenCV5.Calib3d in '..\source\OpenCV5.Calib3d.pas',
+  OpenCV5.Stereo in '..\source\OpenCV5.Stereo.pas',
+  OpenCV5.Ptcloud in '..\source\OpenCV5.Ptcloud.pas',
+  OpenCV5.Features2d in '..\source\OpenCV5.Features2d.pas',
+  OpenCV5.Dnn in '..\source\OpenCV5.Dnn.pas',
+  OpenCV5.Photo in '..\source\OpenCV5.Photo.pas',
+  OpenCV5.Stitching in '..\source\OpenCV5.Stitching.pas',
+  OpenCV5.Persistence in '..\source\OpenCV5.Persistence.pas',
+  OpenCV5.Ml in '..\source\OpenCV5.Ml.pas',
+  OpenCV5.Tracking in '..\source\OpenCV5.Tracking.pas',
+  OpenCV5.System in '..\source\OpenCV5.System.pas',
+  OpenCV5.Helpers in '..\source\OpenCV5.Helpers.pas',
+  OpenCV5.Utils in '..\source\OpenCV5.Utils.pas',
+  OpenCV5.Components.Base in '..\source\OpenCV5.Components.Base.pas',
+  OpenCV5.Components.VideoSource in '..\source\OpenCV5.Components.VideoSource.pas',
+  OpenCV5.Components.Processors in '..\source\OpenCV5.Components.Processors.pas',
+  OpenCV5.Components.Pipeline in '..\source\OpenCV5.Components.Pipeline.pas',
+  OpenCV5.Components.Pipeline.Extended in '..\source\OpenCV5.Components.Pipeline.Extended.pas',
+  OpenCV5.Components.Mux in '..\source\OpenCV5.Components.Mux.pas',
+  OpenCV5.Components.Register in '..\source\OpenCV5.Components.Register.pas';
+
+end.

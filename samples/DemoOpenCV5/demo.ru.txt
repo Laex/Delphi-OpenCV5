@@ -1,0 +1,32 @@
+﻿title=OpenCV 5.0 — демонстрация функций Delphi-обёртки
+outdir=Результаты сохраняются в:
+gui_on=Режим GUI: окна с imshow (нажмите клавишу для продолжения)
+gui_off=Добавьте /gui или --gui для просмотра окон imshow
+finished=Демонстрация завершена.
+error=Ошибка:
+clipLine=clipLine — обрезка отрезка по границам изображения
+clip_orig=Исходный отрезок: (%d,%d) — (%d,%d)
+clip_clipped=Обрезанный отрезок: (%d,%d) — (%d,%d)
+ellipse2Poly=ellipse2Poly — аппроксимация эллипса многоугольником
+poly_points=Точек полигона: %d
+histogram=calcHist / calcHistSimple — гистограмма яркости
+hist_peak=Пик гистограммы: bin=%d, count=%.0f
+backproject=calcBackProject — обратная проекция гистограммы
+map_size=Размер карты: %d x %d, depth=CV_8U
+map_sum=Сумма значений карты: %d
+clahe=createCLAHE — локальная адаптивная эквализация
+clahe_pixel=Пиксель (80,80): до=%d, после=%d
+moments=moments / HuMoments — моменты и инварианты
+centroid=m00=%.0f, центроид=(%.1f, %.1f)
+floodfill=floodFill — заливка области
+fill_before=Центр до заливки: %d
+fill_pixels=Залито пикселей: %d
+fill_after=Центр после заливки: %d
+comparehist=compareHist — сравнение гистограмм
+hist_same=Одинаковые гистограммы (CORREL): %.4f
+hist_diff=Разные гистограммы (CORREL): %.4f
+ior=imwrite / imread — сохранение и загрузка
+written=Записано: demo_roundtrip.png
+write_fail=Ошибка записи demo_roundtrip.png
+loaded=Загружено: %d x %d, channels=%d
+win_key=Окно "%s" — нажмите клавишу
